@@ -1,0 +1,52 @@
+[
+  {
+    "uri": "features/print_from_step_definition.feature",
+    "id": "a-print-from-step-definition-feature",
+    "keyword": "Feature",
+    "name": "Login to AXR Web Application",
+    "line": 1,
+    "description": "",
+    "elements": [
+      {
+        "id": "a-print-from-step-definition-feature;",
+        "keyword": "Scenario",
+        "name": "",
+        "line": 3,
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Visis to AXR Web Login Page",
+            "line": 4,
+            "output": [
+              "from step definition"
+            ],
+            "match": {
+              "location": "features/step_definitions/json_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Put the login credentials",
+            "line": 5,
+            "output": [
+              "from step definition"
+            ],
+            "match": {
+              "location": "features/step_definitions/json_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
